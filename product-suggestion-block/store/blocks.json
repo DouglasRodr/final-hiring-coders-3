@@ -1,0 +1,97 @@
+{
+  "buy-together-custom": {
+    "blocks": ["product-summary.shelf#buy-together"],
+    "props": {
+      "BuyButton": "add-to-cart-button#buy-together"
+    }
+  },
+  "add-to-cart-button#buy-together": {},
+  "product-summary.shelf#buy-together": {
+    "children": [
+      "responsive-layout.desktop#product-summary",
+      "responsive-layout.tablet#product-summary",
+      "responsive-layout.phone#product-summary"
+    ],
+    "props": {
+      "blockClass": "buyTogether"
+    }
+  },
+  "responsive-layout.phone#product-summary": {
+    "children": ["flex-layout.row#product-summary-mobile"]
+  },
+  "responsive-layout.tablet#product-summary": {
+    "children": ["flex-layout.row#product-summary-mobile"]
+  },
+  "responsive-layout.desktop#product-summary": {
+    "children": ["flex-layout.row#product-summary-desktop"]
+  },
+  "flex-layout.row#product-summary-desktop": {
+    "children": ["flex-layout.col#product-summary-desktop"]
+  },
+  "flex-layout.col#product-summary-desktop": {
+    "children": [
+      "product-summary-image#shelf",
+      "product-summary-name",
+      "product-summary-space",
+      "product-list-price#summary",
+      "product-selling-price#summary",
+      "product-installments#summary",
+      "product-summary-sku-selector#buy-together"
+    ]
+  },
+  "flex-layout.row#product-summary-mobile": {
+    "children": [
+      "flex-layout.col#product-image",
+      "flex-layout.col#product-summary-details"
+    ],
+    "props": {
+      "blockClass": "buyTogether"
+    }
+  },
+  "flex-layout.col#product-image": {
+    "children": ["product-summary-image#shelf"]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+  "flex-layout.col#product-summary-details": {
+    "props": {
+      "marginLeft": 4
+    },
+    "children": [
+      "product-summary-name",
+      "product-summary-space",
+      "product-list-price#summary",
+      "product-selling-price#summary",
+      "product-installments#summary",
+      "product-summary-sku-selector#buy-together"
+    ]
+  },
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-summary-sku-selector#buy-together": {
+    "props": {
+      "thumbnailImage": "skuvariation",
+      "imageHeight": 28,
+      "blockClass": "buyTogether",
+      "visibility": "more-than-one"
+    }
+  }
+}

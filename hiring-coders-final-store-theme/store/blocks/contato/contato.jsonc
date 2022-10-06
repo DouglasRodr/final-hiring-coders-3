@@ -1,0 +1,69 @@
+{
+    "store.custom#contato":{
+        "blocks": [
+            "responsive-layout.desktop#contato",
+            "responsive-layout.mobile#contato"
+          ]
+    },
+
+    "responsive-layout.desktop#contato": {
+        "children": [
+            "flex-layout.row#section-title-fale-conosco",
+            "flex-layout.row#corpo-formulario"]
+      },
+    
+      "responsive-layout.mobile#contato": {
+        "children": [
+          "flex-layout.row#section-title-fale-conosco",
+          "flex-layout.row#corpo-formulario"
+         ]
+      },
+
+      "flex-layout.row#section-title-fale-conosco": {
+        "title": "[Home] - Titulo Seção: Bee mine",
+        "props": {
+          "fullWidth": false,
+          "horizontalAlign": "between",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "colSizing": "auto",
+          "preserveLayoutOnMobile": true,
+          "blockClass": ["container", "section-title", "section-title-dashed"]
+        },
+        "children": ["rich-text#section-title-fale-conosco"]
+      },
+      
+      "rich-text#section-title-fale-conosco": {
+        "title": "[Home] - Título: Bee mine",
+        "props": {
+          "blockClass": ["section-title-about-valores", "title-fale-conosco", "section-title-dashed"],
+          "text": "Fale Conosco"
+        }
+      },
+
+      "flex-layout.row#corpo-formulario": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container"]
+        },
+        "children": ["flex-layout.col#img-formulario", "contact-me"]
+      },
+
+      "flex-layout.col#img-formulario": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "left",
+          "verticalAlign": "middle",
+          "blockClass": ["container"],
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true
+          
+        },
+        "children": [ "flex-layout.row#formulario-1", "flex-layout.row#formulario-2"]
+      }
+
+
+}

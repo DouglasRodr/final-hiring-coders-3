@@ -1,0 +1,59 @@
+.flexRow--header {
+  background-color: #515151; 
+}
+
+.flexRow--header-desktop {
+  padding: 16px;
+  background-color: #E9E9E9;
+}
+
+.flexRow--header-desktop :global(.vtex-store-components-3-x-container) {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.flexRowContent--header-desktop {
+  justify-content: space-between;
+}
+
+.flexRow--menu-desktop {
+  padding: 0 16px;
+  background-color: #D9D9D9;
+}
+
+.flexRowContent--menu-desktop {
+  justify-content: space-around;
+}
+
+.flexRow--header-mobile {
+  padding: 8px 16px 0px 0px;
+  color: #E9E9E9;
+}
+
+.flexRowContent--header-mobile {
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #E9E9E9;
+}
+
+.flexRow--search-mobile {
+  padding: 0px 16px;
+}
+
+.flexCol--logo-desktop {
+  align-items: flex-start;
+}
+
+.flexCol--logo-desktop,
+.flexCol--login-container,
+.flexCol--minicart-container {
+  justify-content: center;
+}
+
+.flexColChild--login-minicart-mobile {
+  display: flex;
+}
+
+.flexRow--login-minicart-mobile {
+  display: flex;
+}

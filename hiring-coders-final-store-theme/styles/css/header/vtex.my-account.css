@@ -1,0 +1,26 @@
+:global(.vtex-login-2-x-container .vtex-button):hover,
+:global(.vtex-minicart-2-x-minicartContainer .vtex-button):hover,
+:global(.vtex-login-2-x-container .vtex-button):focus,
+:global(.vtex-minicart-2-x-minicartContainer .vtex-button):focus,
+:global(.vtex-login-2-x-container .vtex-button):active,
+:global(.vtex-minicart-2-x-minicartContainer .vtex-button):active {
+  background: #ff5604;
+  color: #FFC800 !important;
+  text-decoration: none !important;
+}
+:global(.vtex-login-2-x-container .vtex-button) {
+  padding-bottom: 0;
+}
+:global(.vtex-login-2-x-profile),
+:global(.vtex-minicart-2-x-minicartIconContainer) {
+  color: #FFC800;
+}
+:global(.vtex-store-drawer-0-x-openIconContainer) {
+  color: #FFC800;
+}
+
+@media only screen and (max-width: 1024px) {
+  :global(.vtex-store-drawer-0-x-openIconContainer) {
+    color: #e9e9e9;
+  }
+}

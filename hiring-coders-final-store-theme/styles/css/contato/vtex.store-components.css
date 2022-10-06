@@ -1,0 +1,29 @@
+.imageElement--img-contato {
+    max-width: 80px;
+    max-height: 80px;
+    margin-left: -5vw;
+    margin-bottom: 0.5vh;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .imageElement--img-contato {
+        max-width: 50px;
+        max-height: 50px;
+        margin-bottom: 0.5vh;
+        margin-left: -11vw;
+    
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+    .imageElement--img-contato {
+        max-width: 70px;
+        max-height: 70px;
+        margin-bottom: 0.5vh;
+        margin-left: -3vw;
+    
+    }
+    
+}

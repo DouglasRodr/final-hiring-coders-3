@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#section-title-ofertas": {
+    "title": "[PDP] - Titulo Seção: Ofertas",
+    "props": {
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["container", "section-title", "section-title-dashed"]
+    },
+    "children": ["rich-text#section-title-ofertas"]
+  },
+  "rich-text#section-title-ofertas": {
+    "title": "[PDP] - Título: Ofertas",
+    "props": {
+      "blockClass": ["section-title", "section-title-dashed"],
+      "text": "### Ofertas"
+    }
+  },
+  "flex-layout.row#ofertas": {
+    "children": ["list-context.product-list#ofertas"]
+  },
+  "list-context.product-list#ofertas": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#produtos"],
+    "props": {
+      "collection": "145",
+      "skusFilter": "FIRST_AVAILABLE"
+    }
+  }
+}

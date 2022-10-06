@@ -1,0 +1,174 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer-desktop"]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-1-mobile",
+      "flex-layout.row#footer-2-mobile",
+      "flex-layout.row#footer-3-mobile",
+      "flex-layout.row#footer-4-mobile",
+      "flex-layout.row#footer-5-mobile"
+    ]
+  },
+  "image#logo-hc": {
+    "props": {
+      "blockClass": ["logo-footer"],
+      "width": 180,
+      "height": 60,
+      "url": "/",
+      "src": "assets/images/logo/logo-footer-desktop.png"
+    }
+  },
+  "link#link-1": {
+    "props": {
+      "href": "/quem-somos",
+      "label": "Sobre Nós",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-3": {
+    "props": {
+      "href": "/politica-de-privacidade",
+      "label": "Política de Privacidade",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-4": {
+    "props": {
+      "href": "/termos-de-uso",
+      "label": "Termos de Uso",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-5": {
+    "props": {
+      "href": "/politica-de-troca",
+      "label": "Política de Troca",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#link-6": {
+    "props": {
+      "href": "/contato",
+      "label": "Fale Conosco",
+      "blockClass": ["link-footer"]
+    }
+  },
+
+  "link#menu-1": {
+    "props": {
+      "href": "/feminino",
+      "label": "Feminino",
+      "blockClass": ["link-footer"]
+    }
+  },
+
+  "link#menu-2": {
+    "props": {
+      "href": "/masculino",
+      "label": "Masculino",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#menu-3": {
+    "props": {
+      "href": "/infantil",
+      "label": "Infantil",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#menu-4": {
+    "props": {
+      "href": "/148?map=productClusterIds",
+      "label": "Acessórios",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#menu-5": {
+    "props": {
+      "href": "/146?map=productClusterIds",
+      "label": "Novidades",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#menu-6": {
+    "props": {
+      "href": "/145?map=productClusterIds",
+      "label": "Ofertas",
+      "blockClass": ["link-footer"]
+    }
+  },
+
+
+  "rich-text#siga-nos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Siga-nos",
+      "blockClass": ["text-footer"]
+    }
+  },
+  "social-networks": {
+    "props": {
+      "showInColor": false,
+      "blockClass": ["img-footer"],
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/Bee-In-Controll-roupas-e-acess%C3%B3rios-111566571647591"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/beeincontrolloficial/"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/channel/UCCE6CP2paufxjkpABhynUag"
+        }
+      ]
+    }
+  },
+  "rich-text#pague-com": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Pague com",
+      "blockClass": ["text-footer"]
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+  "rich-text#realizacao": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Realização Equipe #HC Controll",
+      "blockClass": ["text-footer"]
+    }
+  },
+  "image#logo-vtex": {
+    "props": {
+      "blockClass": ["logo-vtex-footer"],
+      "width": 121,
+      "height": 40,
+      "url": "#",
+      "src": "assets/images/logo/logo_vtex.png"
+    }
+  },
+  "image#logo-gama": {
+    "props": {
+      "blockClass": ["logo-gama-footer"],
+      "width": 180,
+      "height": 40,
+      "url": "#",
+      "src": "assets/images/logo/logo_gama.png"
+    }
+  }
+}

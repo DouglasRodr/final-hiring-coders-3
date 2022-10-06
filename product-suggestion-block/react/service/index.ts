@@ -1,0 +1,1 @@
+export { default as SuggestionService } from "./services/Suggestion.service";

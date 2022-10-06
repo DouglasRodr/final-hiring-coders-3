@@ -1,0 +1,25 @@
+.sliderLayoutContainer--slider-banners {
+    margin: -6px 0;
+    
+}
+
+.slide--slider-banners {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.paginationDotsContainer--slider-banners {
+    padding: 18px;
+}
+
+@media screen and (max-width: 920px) {
+    .paginationDotsContainer--slider-banners {
+        display: inline-block;
+        top: 0;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0.1rem;
+    }
+}

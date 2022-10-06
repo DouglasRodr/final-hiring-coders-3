@@ -1,0 +1,12 @@
+.sliderTrack--container-vantagens {
+  background-color: #4D4D4D;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide--container-vantagens {
+	margin-top: 1rem;
+  max-inline-size: max-content;
+}

@@ -1,0 +1,21 @@
+{
+  "store.custom#quem-somos": {
+    "path": "/quem-somos"
+  },
+
+  "store.custom#contato": {
+    "path": "/contato"
+  },
+
+  "store.custom#politica-de-privacidade": {
+    "path": "/politica-de-privacidade"
+  },
+
+  "store.custom#politica-de-troca":{
+    "path": "/politica-de-troca"
+  },
+
+  "store.custom#termo-de-uso":{
+    "path": "/termos-de-uso"
+  }
+}

@@ -1,0 +1,47 @@
+.imageElement--img-about-us {
+    max-width: 424px;
+    max-height: 330px;
+    padding-left: -80px;
+    margin-right: 20px;
+  }
+
+.imageElement--banner-about{
+    width: 100vw;
+    margin-bottom: 80px;
+}
+
+  @media only screen and (max-width: 640px) {
+    
+    .imageElement--img-about-us {
+      max-width: 90vw;
+      max-height: 100vh;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 40px;
+    }
+
+    .imageElement--banner-about{
+      width: 100vw;
+      margin-bottom: 30px;
+  }
+
+  }
+
+
+  @media (min-width: 800px) and (max-width: 1180px) {
+
+    .imageElement--img-about-us {
+      max-width: 30vw;
+      max-height: 15vh;
+      margin-top: 13vh;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 40px;
+    }
+
+    .imageElement--banner-about{
+      width: 100vw;
+      height: 80vh;
+      margin-bottom: 30px;
+    }
+} 

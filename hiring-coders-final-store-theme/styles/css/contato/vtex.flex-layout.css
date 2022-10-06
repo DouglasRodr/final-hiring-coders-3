@@ -1,0 +1,52 @@
+.flexCol--section-title-about {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.flexCol--flex-contato {
+    padding-right: 50px;
+}
+
+.flexCol--flex-contato-p {
+    padding-right: 50px;
+}
+
+.flexRowContent--section-form-1 {
+    margin-left: 10px;
+}
+
+.flexRowContent--section-form-2 {
+    margin-top: 63px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .flexCol--flex-contato {
+        padding-right: 6vw;
+        margin-left: 5vw;
+        display:flex;
+        align-items: inline;
+    }
+
+    .flexCol--flex-contato-p {
+        padding-right: 0;
+        margin-left: 3vw;
+        display:flex;
+        align-items: inline;
+    }
+    
+    .flexRowContent--section-form-1 {
+        margin-left: 0;
+        display:flex;
+        align-items: inline;
+    }
+    
+    .flexRowContent--section-form-2 {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 15px;
+        display:flex;
+        align-items: inline;
+    }
+}

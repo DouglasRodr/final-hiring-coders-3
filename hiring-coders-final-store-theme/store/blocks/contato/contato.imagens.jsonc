@@ -1,0 +1,212 @@
+{
+    
+    "flex-layout.row#formulario-1": {
+        "title": "Corpo Formulario",
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "left",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "blockClass": ["section-form-1"]
+        },
+        "children": [ "flex-layout.col#img-formulario-1", "flex-layout.col#img-formulario-2", "flex-layout.col#img-formulario-3"]
+      },
+
+      "flex-layout.row#formulario-2": {
+        "title": "Corpo Formulario",
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "left",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "blockClass": ["section-form-2"]
+        },
+        "children": [ "flex-layout.col#img-formulario-4", "flex-layout.col#img-formulario-5", "flex-layout.col#img-formulario-6"]
+      },
+    
+    //img col
+
+    "flex-layout.col#img-formulario-1": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
+        },
+        "children": ["image#contato-1", "rich-text#contato-1"]
+      },
+
+      "flex-layout.col#img-formulario-2": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
+        },
+        "children": ["image#contato-2", "rich-text#contato-2"]
+      },
+
+      "flex-layout.col#img-formulario-3": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato-p"]
+        },
+        "children": ["image#contato-3", "rich-text#contato-3"]
+      },
+
+      "flex-layout.col#img-formulario-4": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
+        },
+        "children": ["image#contato-4", "rich-text#contato-4"]
+      },
+
+      "flex-layout.col#img-formulario-5": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
+        },
+        "children": ["image#contato-5", "rich-text#contato-5"]
+      },
+
+      "flex-layout.col#img-formulario-6": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato-p"]
+        },
+        "children": ["image#contato-6", "rich-text#contato-6"]
+      },
+
+    //img
+
+    "image#contato-1":{
+        "props": {
+          "blockClass": "img-contato",
+          "src": "assets/images/banner/beeincontroll-img-acompanhe.png",
+          "link":{
+            "url": "/account#/orders",
+            "newTab": true
+          }
+        }
+    },
+
+    "rich-text#contato-1": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-contato"],
+          "text": "Acompanhe \n seu pedido"
+        }
+    },
+
+    "image#contato-2":{
+        "props": {
+          "blockClass": "img-contato",
+          "src": "assets/images/banner/beeincontroll-img-duvida.png",
+          "link":{
+            "url": "/quem-somos",
+            "newTab": true
+          }
+        }
+    },
+
+    "rich-text#contato-2": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-contato"],
+          "text": "Dúvidas \n Frequentes"
+        }
+    },
+
+    "image#contato-3":{
+        "props": {
+          "blockClass": "img-contato",
+          "src": "assets/images/banner/beeincontroll-img-troca.png",
+          "link":{
+            "url": "/politica-de-troca",
+            "newTab": true
+          }
+        }
+    },
+
+    "rich-text#contato-3": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-contato"],
+          "text": "Troca e \n Devolução"
+        }
+    },
+
+    "image#contato-4":{
+        "props": {
+          "blockClass": "img-contato",
+          "src": "assets/images/banner/beeincontroll-img-whatsapp.png",
+          "link":{
+            "url": "https://api.whatsapp.com/send/?phone=55629999999&text&type=phone_number&app_absent=0",
+            "newTab": true
+          }
+        }
+    },
+
+    "rich-text#contato-4": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-contato"],
+          "text": "Fale pelo \n WhatsApp"
+        }
+    },
+
+    "image#contato-5":{
+        "props": {
+          "blockClass": "img-contato",
+          "src": "assets/images/banner/beeincontroll-img-email.png",
+          "link":{
+            "url": "mailto:beeincontroll@gmail.com? Subject: Contato",
+            "newTab": true
+          }
+        }
+    },
+
+    "rich-text#contato-5": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-contato"],
+          "text": "Fale por \n e-mail"
+        }
+    },
+    
+    "image#contato-6":{
+        "props": {
+          "blockClass": "img-contato",
+          "src": "assets/images/banner/beeincontroll-img-devolucao.png",
+          "link":{
+            "url": "/politica-de-troca",
+            "newTab": true
+          }
+        }
+    },
+
+    "rich-text#contato-6": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-contato"],
+          "text": "Devolução e \nreembolso"
+        }
+    }
+
+
+}

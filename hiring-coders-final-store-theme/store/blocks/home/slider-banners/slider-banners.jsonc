@@ -1,0 +1,42 @@
+{
+  "list-context.image-list#banners": {
+    "title": "[Home] Banner principal",
+    "children": ["slider-layout#slider-banners"],
+    "props": {
+      "height": 587,
+      "images": [
+        {
+          "image": "assets/images/banner/beeincontroll-banner-1.jpg",
+          "mobileImage": "assets/images/banner/beeincontroll-banner-1-mobile.jpg"
+        },
+        {
+          "image": "assets/images/banner/beeincontroll-banner-2.jpg",
+          "mobileImage": "assets/images/banner/beeincontroll-banner-2-mobile.jpg"
+        },
+        {
+          "image": "assets/images/banner/beeincontroll-banner-3.jpg",
+          "mobileImage": "assets/images/banner/beeincontroll-banner-3-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-banners": {
+    "title": "[Home] Slider Banner principal",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "fullWidth": true,
+      "blockClass": ["slider-banners"]
+    }
+  }
+}

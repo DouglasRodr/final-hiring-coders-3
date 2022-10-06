@@ -1,0 +1,72 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+.nameContainer {
+  justify-content: start;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.brandName {
+  font-weight: 600;
+  font-size: 18px;
+  color: #4D4D4D;
+}
+
+.container {
+  text-align: start;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  border-radius: 0.25rem;
+}
+
+.vtex-button{
+  font-weight: 600;
+}
+
+/*.productNameContainer{
+  font-weight: 700;
+}*/
+
+.productBrand{
+  font-weight: 700;
+  font-size: 18px;
+  color: #4D4D4D;
+}
+
+.price_sellingPrice{
+  font-weight: 700px;
+}
+
+.priceContainer{
+  justify-content: flex-start;
+}
+
+.buyButtonText{
+  font-weight: 700;
+}
+
+.information{
+  justify-content: flex-start;
+}

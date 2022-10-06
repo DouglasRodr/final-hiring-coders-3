@@ -1,0 +1,12 @@
+{
+  "extends": "vtex-react/io",
+  "rules": {
+    "@typescript-eslint/prefer-enum-initializers": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}

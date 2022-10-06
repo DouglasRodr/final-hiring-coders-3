@@ -1,0 +1,25 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "search-bar" : {
+    "props": {
+      "blockClass": [
+        "search-bar"
+      ],
+      "placeholder": "O que você está procurando?",
+      "maxWidth": "100%"
+    }
+  },
+  "login":{
+    "props":{
+      "blockClass": "login",
+      "showIconProfile": false,
+      "identifierPlaceholder": "Teste",
+      "labelClasses": ["teste"]
+    }
+  }
+}

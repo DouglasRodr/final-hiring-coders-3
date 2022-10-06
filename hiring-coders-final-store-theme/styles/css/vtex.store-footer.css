@@ -1,0 +1,70 @@
+.footerLayout{
+  background: #4D4D4D;
+  color: #fff;
+}
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+.footerLayout .rich-text{
+  color: #fff;
+  text-align: center;
+}
+.socialNetworkImage,
+.paymentMethodIconImage{
+  filter: brightness(100);
+  margin-top: 11px;
+  
+
+ 
+}
+.rich-text{
+  color: #fff;
+  
+}
+
+.footerLayoutSpacer{
+  height: 75px;
+}
+
+.socialNetworkWrapper,
+.acceptedPaymentMethodContainer {
+  margin-top: -12px;
+  
+  
+}
+
+.footerLayout {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 468px) {
+  .socialNetworkImage
+  .paymentMethodIconImage{
+    margin-top: 4px;
+    margin-left: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  .socialNetwork--img-footer{
+    width: 20px !important;
+
+  } 
+
+  .socialNetworkLink--img-footer{
+    width: 20px !important;
+  }
+
+  .footerLayout {
+    padding-left: 0;
+  }
+
+}

@@ -1,0 +1,6 @@
+{
+  "admin.app.abelhudo": {
+    "component": "abelhudo",
+    "path": "/admin/app/abelhudo"
+  }
+}

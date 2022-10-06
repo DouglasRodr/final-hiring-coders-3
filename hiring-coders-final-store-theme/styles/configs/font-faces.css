@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/RedHatDisplay-Regular.ttf) format("ttf");
+}
+
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url(assets/fonts/RedHatDisplay-Regular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  src: url(assets/fonts/RedHatDisplay-ExtraBold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "VTEX Trust Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(assets/fonts/VTEXTrust-Bold.ttf) format("ttf");
+}

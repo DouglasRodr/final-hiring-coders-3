@@ -1,0 +1,75 @@
+.container {
+  float: none;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  opacity: 0.7;
+}
+
+.box {
+  right: -100px !important;
+}
+
+.container :global(.vtex-button) {
+  background-color: transparent !important;
+  padding-bottom: 0 !important;
+  z-index: 2;
+}
+
+.container :global(.vtex-button__label)::before {
+  content: "";
+  display: block;
+  background: url("data:image/svg+xml,%3Csvg width='35' height='43' viewBox='0 0 35 43' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M26.9037 9.43825C26.9037 14.6369 22.6796 18.8765 17.5 18.8765C12.3204 18.8765 8.09631 14.6369 8.09631 9.43825C8.09631 4.23964 12.3204 0 17.5 0C22.6796 0 26.9037 4.23964 26.9037 9.43825Z' fill='%23FFC800'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M35 38.813C35 44.3649 0 44.3649 0 38.813C0 30.4851 7.84483 24.1761 17.5 24.1761C27.2055 24.1761 35 30.4851 35 38.813Z' fill='%23FFC800'/%3E%3C/svg%3E%0A");
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: 5px;
+}
+
+.profile,
+.label {
+  display: block;
+  font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4d4d4d !important;
+  text-transform: none;
+}
+
+.profile {
+  max-width: 90px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1320px) {
+  .profile {
+    max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .profile,
+  .label {
+    display: none;
+  }
+
+  .container :global(.vtex-button__label) {
+    padding-left: 0px;
+    padding-right: 8px;
+  }
+
+  .container :global(.vtex-button__label)::before {
+    background: url("data:image/svg+xml,%3Csvg width='35' height='43' viewBox='0 0 35 43' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M26.9037 9.43825C26.9037 14.6369 22.6796 18.8765 17.5 18.8765C12.3204 18.8765 8.09631 14.6369 8.09631 9.43825C8.09631 4.23964 12.3204 0 17.5 0C22.6796 0 26.9037 4.23964 26.9037 9.43825Z' fill='%23E9E9E9'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M35 38.813C35 44.3649 0 44.3649 0 38.813C0 30.4851 7.84483 24.1761 17.5 24.1761C27.2055 24.1761 35 30.4851 35 38.813Z' fill='%23E9E9E9'/%3E%3C/svg%3E%0A");
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

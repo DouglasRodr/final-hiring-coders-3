@@ -1,0 +1,13 @@
+{
+  "buy-together-suggestions": {
+    "component": "BuyTogetherSuggestions",
+    "composition": "children",
+    "required": ["buy-together-custom"]
+  },
+  "buy-together-custom": {
+    "required": ["product-summary"],
+    "allowed": ["responsive-layout"],
+    "component": "BuyTogetherCustom",
+    "composition": "children"
+  }
+}

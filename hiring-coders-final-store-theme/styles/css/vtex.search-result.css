@@ -1,0 +1,50 @@
+.galleryLayoutOptionButton {
+  background-color: #f0f0f0;
+  color: #3f3f40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3f3f40;
+  color: #ffffff;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center;
+}
+
+.galleryItem--list {
+  border-bottom: 1px #e7e9ee solid;
+}
+
+.totalProducts--layout {
+  color: #ff5604;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.totalProductsMessage {
+  color: #979899;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.galleryTitle--layout {
+  color: #4D4D4D;
+  text-transform: uppercase;
+  font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  font-size: 34px;
+  line-height: 36px;
+}
+
+.filterMessage {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4D4D4D;
+}

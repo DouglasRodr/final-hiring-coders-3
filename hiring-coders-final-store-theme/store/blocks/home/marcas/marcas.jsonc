@@ -1,0 +1,156 @@
+{
+  "flex-layout.row#section-title-marcas": {
+    "title": "[Home] - Titulo Seção: Marcas",
+    "props": {
+      
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["container", "section-title", "section-title-dashed"]
+    },
+    "children": ["rich-text#section-title-marcas"]
+  },
+  "rich-text#section-title-marcas": {
+    "title": "[Home] - Título: Marcas",
+    "props": {
+      "blockClass": ["section-title", "section-title-dashed"],
+      "text": "### Marcas"
+    }
+  },
+  "slider-layout#marcas": {
+    "title": "[Home] - Slider Marcas",
+    "props": {
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly",
+      "slideTransition": {
+        "speed": 2000,
+        "delay": 0,
+        "timing": "ease-in"
+      },
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 3
+      },
+      "autoplay": {
+        "timeout": 4000
+      },
+       "blockClass": ["container"]
+    },
+    "children": [
+      "image#marca1",
+      "image#marca2",
+      "image#marca3",
+      "image#marca4",
+      "image#marca5",
+      "image#marca6",
+      "image#marca7",
+      "image#marca8",
+      "image#marca9",
+      "image#marca10",
+      "image#marca11", 
+      "image#marca12"
+    ]
+  },
+  "image#marca1": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Acct.jpg",
+      "alt": "logotipo marca ACCT"
+    }
+  },
+  "image#marca2": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/aws2.jpg",
+      "alt": "logotipo marca AWS"
+    }
+  },
+  "image#marca3": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/le-bisc-uit.jpg",
+      "alt": "logotipo marca Le biscuit"
+    }
+  },
+  "image#marca4": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/HiringCoders.jpg",
+      "alt": "logotipo marca Hiring Coders"
+    }
+  },
+  "image#marca5": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Controll.jpg",
+      "alt": "logotipo marca Controll"
+    }
+  },
+  "image#marca6": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Disney.jpg",
+      "alt": "logotipo marca Disney"
+    }
+  },
+  "image#marca7": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/DLK.jpg",
+      "alt": "Logotipo marca DLK"
+    }
+  },
+  "image#marca8": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Kaisan.jpg",
+      "alt": "logotipo marca Kaisan"
+    }
+  },
+  "image#marca9": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Mizuno.jpg",
+      "alt": "logotipo marca Mizuno"
+    }
+  },
+  "image#marca10": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Redikal.jpg",
+      "alt": "logotipo marca Redikal"
+    }
+  },
+  "image#marca11": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Reserva.jpg",
+      "alt": "logotipo marca Reserva"
+    }
+  },
+  "image#marca12": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Surreal.jpg",
+      "alt": "logotipo marca Surreal"
+    }
+  }
+}
